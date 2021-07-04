@@ -1,0 +1,50 @@
+.Register{
+  background: linear-gradient(9deg, rgb(133, 133, 127), rgb(56, 196, 161));
+  padding:110px;
+  display: flex;
+  justify-content: center;
+ font-family: sans-serif;
+}
+.login{
+  font-size: 15px;
+  font-family:monospace;
+  font-weight: bolder;
+  width:380px;
+  height:490px;
+  background:rgba(202, 202, 202, 0.3);
+  padding:20px 40px 20px 20px;
+  overflow:hidden;
+  
+  
+}
+.login p{
+  font-size: 20px;
+  margin:5px 0;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.login input{
+  font-size: 15px;
+  width: 100%;
+  padding: 10px 10px;
+  border-color: black;
+  border-radius: 10px;
+  background: transparent;
+  text-decoration-color: rgb(223, 223, 220);
+}    
+.login button{
+      font-size: 18px;
+      font-weight: bolder;
+      margin: 20px 0;
+      padding: 10px 10px;
+      width:40%;
+      border-radius: 15px;
+      font-family: 'Gloria Hallelujah', cursive;
+      
+}
+.login h1{
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      margin: 40px 0;
+      
+  }
