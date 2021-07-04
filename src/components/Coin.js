@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import './Coin.css';
 
 const Coin = ({
+  id,
   name,
   price,
   symbol,
@@ -13,7 +14,7 @@ const Coin = ({
 }) => {
   const history=useHistory()
   const showGraphPage=()=>{
-    history.push(`/coin-page/${name}`)
+    history.push(`/coin-page/${id}`)
   }
   return (
     <div className='coin-container'>

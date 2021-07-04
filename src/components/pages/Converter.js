@@ -67,7 +67,6 @@ function Converter() {
 
     return (
         <div className='converter'>
-            <div className='.show'>
             <select value={fromCoin} onChange={(e)=>{
                 setFromCoin(e.target.value)
                 getFromValue(e.target.value)
@@ -99,7 +98,6 @@ function Converter() {
                 converted && <h1>{fromInput}{fromCoin}={result}{endCoin}</h1>
             }
             </div>
-        </div>
     )
 }
 

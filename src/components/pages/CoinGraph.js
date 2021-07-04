@@ -7,8 +7,12 @@ import { Line } from 'react-chartjs-2';
 function CoinGraph() {
     let {id}=useParams()
    const [graphData,setGraphData]=useState([])
+   const [loading,setLoading]=useState(false)
     useEffect(()=>{
-        axios.get(`https://api.coingecko.com/api/v3/coins/${id.toLowerCase()}/market_chart?vs_currency=inr&days=30`)
+      setLoading(true)
+      var x=id.split('%20').join()
+        axios.get(`https://api.coingecko.com/api/v3/coins/${x.toLowerCase()}/market_chart?vs_currency=inr&days=30`)
+        
         .then(response=>{
             console.log(response.data.prices)
             var prices=response.data.prices
@@ -30,6 +34,7 @@ function CoinGraph() {
         }).catch(err=>{
             console.log(err)
         })
+        setLoading(false)
     },[])
     const data = {
       
@@ -68,14 +73,19 @@ function CoinGraph() {
           ],
         },
       };
-      
-    return (
-        <div className='coinGraph'>
-            <div className='coinGraphContainer'>
-                <Line data={data} options={options} width={100} height={50} />
+      if(loading){
+        return <p>Loading....</p>
+    }
+    else{
+        return (
+            <div className='coinGraph'>
+                <div className='coinGraphContainer'>
+                    <Line data={data} options={options} width={100} height={50} />
+                </div>
             </div>
-        </div>
-    )
+        )
+
+    }
 }
 
 export default CoinGraph

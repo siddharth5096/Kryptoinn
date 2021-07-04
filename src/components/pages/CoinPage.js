@@ -55,6 +55,7 @@ function CoinPage() {
           return (
             <Coin
               key={coin.id}
+              id={coin.id}
               name={coin.name}
               price={coin.current_price}
               symbol={coin.symbol}
