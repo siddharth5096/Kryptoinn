@@ -8,7 +8,7 @@ function CoinGraph() {
     let {id}=useParams()
    const [graphData,setGraphData]=useState([])
     useEffect(()=>{
-        axios.get(`https://api.coingecko.com/api/v3/coins/${id.toLowerCase()}/market_chart?vs_currency=inr&days=15`)
+        axios.get(`https://api.coingecko.com/api/v3/coins/${id.toLowerCase()}/market_chart?vs_currency=inr&days=30`)
         .then(response=>{
             console.log(response.data.prices)
             var prices=response.data.prices
