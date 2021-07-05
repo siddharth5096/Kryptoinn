@@ -42,18 +42,17 @@ function Converter() {
                 console.log(price)
                 setFromValue(price)
             })
-        setLoading1(false)
+        
     }
 
     const getToValue = (value) => {
         setConverted(false)
-        setLoading2(true)
         axios.get(`https://api.coingecko.com/api/v3/simple/price?ids=${value}&vs_currencies=inr`)
             .then((response) => {
                 var price = response.data[value].inr
                 setToValue(price)
             })
-        setLoading2(false)
+       
     }
 
     const getResult = () => {
@@ -118,8 +117,9 @@ function Converter() {
         <div class="row">
         <div class="form-group col-lg-4">
         {/* <button type="submit" class="btn btn-primary">Submit</button> */}
-        <button type="button" class="from-control btn btn-primary btn-block" disabled={(loading1 && loading2) ? true : false} onClick={getResult}>Convert</button>
+        <button type="button" class="from-control btn btn-primary btn-block"  onClick={getResult}>Convert</button>
            {
+            fromInput.length!==0 && 
              converted && 
              <div className="result">
               <h2 >{fromInput} {fromCoin} = {result} {endCoin}</h2>
