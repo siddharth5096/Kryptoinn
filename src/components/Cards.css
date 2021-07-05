@@ -1,7 +1,9 @@
 .cards {
   padding: 2rem;
   background : rgb(212, 211, 211);
+  
   font-style: italic;
+  
 }
 
 h1 {
@@ -9,6 +11,8 @@ h1 {
   font-family: 'Fuggles', cursive;
 font-family: 'Josefin Sans', sans-serif;
 font-size: 50px;
+/* color: rgb(255, 255, 255); */
+font-variant: small-caps;
 }
 
 .cards__container {
@@ -21,6 +25,7 @@ font-size: 50px;
 }
 
 .cards__wrapper {
+  
   position: relative;
   margin: 50px 0 45px;
   
@@ -34,6 +39,7 @@ font-size: 50px;
 }
 
 .cards__item {
+  
   display: flex;
   flex: 1;
   margin: 0 1rem;

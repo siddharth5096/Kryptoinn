@@ -12,9 +12,11 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  /* border: 2px solid; */
+  
 }
-
+.but{
+  font-family: 'Yomogi', cursive;
+}
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -25,21 +27,22 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: #fff !important;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
   font-size: 2rem;
   display: flex;
   align-items: center;
   font-family: 'Gloria Hallelujah', cursive;
+  
 }
 
-.fa-typo3 {
+/* .fa-typo3 {
   margin-left: 1.8rem;
   font-size: 1.8rem;
-}
+} */
 
 .nav-menu {
   display: grid;
@@ -57,27 +60,30 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: #fff !important;
   display: flex;
   align-items: center;
-  text-decoration: none;
+  text-decoration: none !important;
   padding: 0.5rem 1rem;
   height: 100%;
   font-family: 'Yomogi', cursive;
+  
 }
 
 .nav-links:hover {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
+  
 }
 
 .fa-bars {
   color: #fff;
+  
 }
 
 .nav-links-mobile {
   display: none;
-  
+  font-family: 'Yomogi', cursive;
 }
 
 .menu-icon {
@@ -107,6 +113,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    
   }
 
   .nav-links {
@@ -114,6 +121,7 @@
     padding: 2rem;
     width: 100%;
     display: table;
+    
   }
 
   .nav-links:hover {
@@ -137,6 +145,7 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    
   }
 
   .fa-times {
@@ -164,5 +173,7 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+    
   }
 }
+

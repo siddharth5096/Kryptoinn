@@ -37,13 +37,13 @@ function Register() {
         <h1>REGISTER </h1>
             <div className="email-container">
                 <p>Email</p>
-                <input type='email' placeholder='Email' value={email} onChange={(e)=>{
+                <input className="incol" type='email' placeholder='Email' value={email} onChange={(e)=>{
                 setEmail(e.target.value)
                 }}/>
             
             <div classname="password-container">
                 <p>Password</p>
-                <input type='password' placeholder='Password' 
+                <input className="incol" type='password' placeholder='Password' 
                     value={password} onChange={(e)=>{
                     setPassword(e.target.value)
                     }}
@@ -51,7 +51,7 @@ function Register() {
             
             <div>
                 <p>Confirm Password</p>
-                <input type='password' placeholder='Confirm Password' value={confirmPassword} onChange={(e)=>{
+                <input className="incol" type='password' placeholder='Confirm Password' value={confirmPassword} onChange={(e)=>{
                     setConfirmPassword(e.target.value)
                 }}/>
             </div>

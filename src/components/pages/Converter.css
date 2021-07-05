@@ -1,5 +1,42 @@
-.converter{
-    width: 100%;
-    height: 90vh;
-    border: 10px solid black;
+.body{
+  padding-top: 2rem;
+  padding-bottom: 12rem;
+ /* background-color: rgb(122, 122, 122); */
+ background-image: url('https://store-images.s-microsoft.com/image/apps.15160.14439434818564022.3318c674-5d77-439f-a11b-5f9c9ebb2aa3.5d9b6e54-e872-4c9d-87ab-b87faaa40eb8');
+ /* background-attachment: fixed;  */
+ background-attachment: inherit;
+
+}
+
+.result{
+  width: 600px;
+  border: 1px solid rgb(41, 41, 41);
+  padding: 30px;
+  margin-top: 2rem;
+  margin-left: -11rem;
+  background:rgba(255, 255, 255, 0.9);
+  text-align:center ;
+  border-radius: 20px;
+  box-shadow: 10px 29px 25px rgba(109, 131, 228, 0.452);
+  
+}
+
+.container{
+  padding-left: 27rem;
+  
+}
+
+.h1{
+  margin-top: 0.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.p{
+  margin-bottom: 2rem; 
+  text-align: center;
+}
+
+.result h2{
+  font-family: 'Otomanopee One', sans-serif;
 }

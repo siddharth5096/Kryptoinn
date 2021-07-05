@@ -59,6 +59,9 @@ function Footer() {
           </div>
         </div>
       </section>
+      <div className = 'contributor' >
+        <p>Created by Yashasvi Nayak | Shiwangi Shree | Siddharth Rout | Sudipta Mondal </p>
+      </div>
     </div>
   );
 }

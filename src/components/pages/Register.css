@@ -1,32 +1,36 @@
 .Register{
-  background: linear-gradient(9deg, rgb(133, 133, 127), rgb(56, 196, 161));
-  padding:110px;
-  display: flex;
+  padding:115px;
+  background-position: center;
+  background-size: cover;
   justify-content: center;
  font-family: sans-serif;
+ background-image: url(https://www.paymentsjournal.com/wp-content/uploads/2020/03/1027-scaled.jpg);
+ align-items: center;
 }
 .login{
   font-size: 15px;
   font-family:monospace;
   font-weight: bolder;
-  width:380px;
-  height:490px;
+  width:350px;
+  height:430px;
   background:rgba(202, 202, 202, 0.3);
-  padding:20px 40px 20px 20px;
+  padding:20px 30px 20px 20px;
+  /* padding:20px 50px 50px 20px; */
   overflow:hidden;
-  
-  
+  border-radius: 20px;
+  box-shadow: 10px 29px 25px rgba(92, 20, 226, 0.5);
 }
 .login p{
   font-size: 20px;
   margin:5px 0;
   font-family: 'Gloria Hallelujah', cursive;
+  color: aliceblue;
 }
 .login input{
   font-size: 15px;
   width: 100%;
   padding: 10px 10px;
-  border-color: black;
+  border-color: rgb(20, 20, 20);
   border-radius: 10px;
   background: transparent;
   text-decoration-color: rgb(223, 223, 220);
@@ -35,8 +39,8 @@
       font-size: 18px;
       font-weight: bolder;
       margin: 20px 0;
-      padding: 10px 10px;
-      width:40%;
+      padding: 12px 5px;
+      width:150%;
       border-radius: 15px;
       font-family: 'Gloria Hallelujah', cursive;
       
@@ -45,6 +49,10 @@
       font-weight: bold;
       font-size: 25px;
       text-align: center;
-      margin: 40px 0;
-      
+      margin: 10px 0;
+      color: aquamarine;
+  }
+
+  .incol{
+    color: white;
   }

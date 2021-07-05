@@ -41,7 +41,7 @@ function CoinPage() {
     return (
       <div className='coin-app'>
         <div className='coin-search'>
-          <h1 className='coin-text'>Search a currency</h1>
+          <h1 className='coin-text'>Track a Crypto </h1>
           <form>
             <input
               className='coin-input'
