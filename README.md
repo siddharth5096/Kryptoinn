@@ -6,11 +6,11 @@ Development Team and contribution in website :
 
  Yashasvi Nayak : Worked in the Frontend of Currency Converter Page And used the Api to extract the information like coin price which helped in coverter .
 
- Shiwangi Shree : Worked in the Frontend of Register Page And Login Page and connected it with authentication using the Firebase and overall website designing(How the wesite will look).
+ Shiwangi Shree : Worked in the Frontend of Register Page And Login Page and connected it with authentication using the Firebase and overall website designing(How the website will look).
 
  Siddharth Rout : Worked in the the Frontend of Track a Crypto Page and used the api to get information and used the firebase to host the website .
 
- Sudipta Mondal : Worked in the Frontend of the Front page, and helped in the overall website authentication using the Firebase and overall website designing (How the wesite will look) .
+ Sudipta Mondal : Worked in the Frontend of the Front page, and helped in the overall website authentication using the Firebase and overall website designing (How the website will look) .
 
 Web URL : https://cryptoinn-7ad89.web.app/
 Github Link:https://github.com/siddharth5096/Kryptoinn
