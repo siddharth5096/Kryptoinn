@@ -69,7 +69,6 @@ function Converter() {
 
         <div className="body" >
         <h1>Crypto Price Converter</h1>
-        {/* <p>Convert the price of one crypto to another</p> */}
 
         <div className="container">
     <form role="form">
@@ -116,7 +115,6 @@ function Converter() {
         </div>
         <div class="row">
         <div class="form-group col-lg-4">
-        {/* <button type="submit" class="btn btn-primary">Submit</button> */}
         <button type="button" class="from-control btn btn-primary btn-block"  onClick={getResult}>Convert</button>
            {
             fromInput.length!==0 && 
@@ -129,9 +127,7 @@ function Converter() {
             </div>
             </form>
         </div>
-    {/* </form> */}
 </div>
-        // </div>
 
     )
 }
