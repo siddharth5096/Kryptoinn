@@ -83,7 +83,7 @@ Free Multi-Platform Firebase Authentication
 User identity has vital in maintaining the security of applications. In this challenging online security environment, Google-backed Firebase Authentication is one of the most appealing advantages of this platform. It caters easy-to-integrate SDKs, UI libraries and server-side services to verify users before using a particular Firebase application.
 
 
-Hardware Requirement:
+Hardware Requirements     :
 
 As we have created this website optimum for computer users so our request is to please use a computer for optimum experience. 
 
