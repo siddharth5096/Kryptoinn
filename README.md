@@ -21,7 +21,7 @@ Installation Steps-
 3. Then write npm install 
 4. Then write npm start
 
-About Project:  
+About Project  :  
 KRYPTOINN is a free to use website where we can check the current market value of cryptocurrency, Compare how much we can get one cryptocurrency  by clicking at get started option ,if we convert it to other by just clicking on the converter button. Not only that, we can also track the last 30 days performance of the cryptocurrency through graph by just clicking on the crypto’s at crypto tracker. But for all this feature the only thing we have to do is either register or signup through google account . We maintaian the data as in who logged in by the use of firebase database.For singing in you have to click at either register or sign in tab.
 We have used the API of coingecko website. link:https://www.coingecko.com/api/documentations/v3
 to extract the informations like coi  price, logos, market cap . 
